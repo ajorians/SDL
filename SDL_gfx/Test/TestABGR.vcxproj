@@ -71,7 +71,7 @@
     <Link>
       <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Debug/TestABGR.exe</OutputFile>
-      <AdditionalLibraryDirectories>..\..\sdlgfx\Debug;..\..\SDL-1.2.14\VisualC\SDLmain\Debug;..\..\SDL-1.2.14\VisualC\SDL\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\sdl_gfx\$(Configuration);..\..\SDL-1.2.15\VisualC\SDLmain\$(Configuration);..\..\SDL-1.2.15\VisualC\$(Configuration);</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>./Debug\TestABGR.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -95,7 +95,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\sdlgfx\Debug;..\..\SDL-1.2.14\VisualC\SDLmain\Debug;..\..\SDL-1.2.14\VisualC\SDL\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\sdl_gfx\$(Configuration);..\..\SDL-1.2.15\VisualC\SDLmain\$(Configuration);..\..\SDL-1.2.15\VisualC\$(Configuration);</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
