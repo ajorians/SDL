@@ -109,7 +109,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>SDL.lib;libfreetype-6.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x86;$(ProjectDir)..\..\SDL-1.2.15\VisualC\$(Configuration);$(ProjectDir)..\..\SDL-1.2.15\VisualC\SDLmain\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/SDL_ttf.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -146,7 +146,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>SDL.lib;libfreetype-6.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x64;$(ProjectDir)..\..\SDL-1.2.15\VisualC\$(Platform)\$(Configuration);$(ProjectDir)..\..\SDL-1.2.15\VisualC\SDLmain\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/SDL_ttf.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -184,7 +184,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>SDL.lib;libfreetype-6.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x86;$(ProjectDir)..\..\SDL-1.2.15\VisualC\$(Configuration);$(ProjectDir)..\..\SDL-1.2.15\VisualC\SDLmain\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>.\Release/SDL_ttf.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -221,7 +221,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>SDL.lib;libfreetype-6.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)\external\lib\x64;$(ProjectDir)..\..\SDL-1.2.15\VisualC\$(Platform)\$(Configuration);$(ProjectDir)..\..\SDL-1.2.15\VisualC\SDLmain\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>.\Release/SDL_ttf.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX64</TargetMachine>

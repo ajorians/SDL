@@ -112,6 +112,7 @@
       <ProgramDatabaseFile>.\Release/glfont.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\$(Configuration);$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\SDLmain\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -148,6 +149,7 @@
       <ProgramDatabaseFile>.\Release/glfont.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\$(Platform)\$(Configuration);$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\SDLmain\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -184,6 +186,7 @@
       <ProgramDatabaseFile>.\Debug/glfont.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\$(Configuration);$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\SDLmain\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -220,6 +223,7 @@
       <ProgramDatabaseFile>.\Debug/glfont.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\$(Platform)\$(Configuration);$(ProjectDir)..\..\..\SDL-1.2.15\VisualC\SDLmain\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
