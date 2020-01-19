@@ -80,8 +80,8 @@
     </Link>
     <PostBuildEvent>
       <Message />
-      <Command>
-      </Command>
+      <Command>copy $(&lt;ProjectDir&gt;)..\..\sdl_gfx\$(Configuration)\SDL_gfx.dll $(&lt;TargetDir&gt;)
+copy $(&lt;ProjectDir&gt;)..\..\SDL-1.2.15\VisualC\SDL\$(Configuration)\SDL.dll $(&lt;TargetDir&gt;)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -112,8 +112,8 @@
     </Link>
     <PostBuildEvent>
       <Message>Copy dependent DLLs</Message>
-      <Command>copy $(&lt;ProjectDir&gt;)..\..\sdlgfx\Debug\SDL_gfx.dll $(&lt;TargetDir&gt;)
-copy $(&lt;ProjectDir&gt;)..\..\SDL-1.2.14\VisualC\SDL\Debug\SDL.dll $(&lt;TargetDir&gt;)</Command>
+      <Command>copy $(&lt;ProjectDir&gt;)..\..\sdl_gfx\$(Configuration)\SDL_gfx.dll $(&lt;TargetDir&gt;)
+copy $(&lt;ProjectDir&gt;)..\..\SDL-1.2.15\VisualC\SDL\$(Configuration)\SDL.dll $(&lt;TargetDir&gt;)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
