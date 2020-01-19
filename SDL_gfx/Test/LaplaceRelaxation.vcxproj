@@ -14,6 +14,7 @@
     <ProjectGuid>{AE9876D3-6F6D-48C0-3DAF-EF578406BEDC}</ProjectGuid>
     <RootNamespace>LaplaceRelaxation</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
