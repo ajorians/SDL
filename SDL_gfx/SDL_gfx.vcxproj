@@ -75,8 +75,7 @@
     </Link>
     <PostBuildEvent>
       <Command>copy "$(TargetPath)" "$(SolutionDir)\Test\$(Configuration)"
-copy "$(ProjectDir)\..\SDL-1.2.14\VisualC\SDL\Debug\SDL.dll" "$(SolutionDir)\Test\$(Configuration)"
-</Command>
+copy "$(ProjectDir)\..\SDL-1.2.15\VisualC\SDL\$(Configuration)\SDL.dll" "$(SolutionDir)\Test\$(Configuration)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -100,6 +99,10 @@ copy "$(ProjectDir)\..\SDL-1.2.14\VisualC\SDL\Debug\SDL.dll" "$(SolutionDir)\Tes
       <TargetMachine>MachineX86</TargetMachine>
       <AdditionalLibraryDirectories>$(ProjectDir)..\SDL-1.2.15\VisualC\$(Configuration)</AdditionalLibraryDirectories>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)\Test\$(Configuration)"
+copy "$(ProjectDir)\..\SDL-1.2.15\VisualC\SDL\$(Configuration)\SDL.dll" "$(SolutionDir)\Test\$(Configuration)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="SDL_framerate.c" />
