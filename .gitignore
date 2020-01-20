@@ -39,5 +39,8 @@ rc.write.1.tlog
 Version.res
 
 *.idb
+*.ipch
 
 *.bmp
+
+unsuccessfulbuild
