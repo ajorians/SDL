@@ -69,6 +69,18 @@ copy $(<ProjectDir>)..\..\SDL-1.2.15\VisualC\SDL\$(Configuration)\SDL.dll $(<Tar
 
 Delete Debug and Release files if they exist in the Test directory.
 
+Make an x64 platform.
+
+In x64 configurations remove the preprocessor define of USE_MMX that is in the debug configuration for SDL_gfx project.
+
+Change the C/C++ Output Files path for ASM List Location to be $(IntDir) for SDL_gfx Debug|x64
+Change the C/C++ Output Files path for Object File Name to be $(IntDir) for SDL_gfx Debug|x64
+Change the C/C++ Output Files path for Program Database File name to be $(IntDir)vc$(PlatformToolsetVersion).pdb for SDL_gfx Debug|x64
+
+Change the test Additional Link Directories to be ..\..\sdl_gfx\$(Platform)\$(Configuration);..\..\SDL-1.2.15\VisualC\SDLmain\$(Platform)\$(Configuration);..\..\SDL-1.2.15\VisualC\$(Platform)\$(Configuration); for the x64 platform.
+
+Change the Linker Advanced setting of Import Library to be $(OutDir)$(TargetName).lib for x64 Platform configurations.
+
 Batch build will work but not build solution because that builds multiple project simulaneously which uses the same PDB for the test projects
 
 ## For Cross-platform with NSpire
