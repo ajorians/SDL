@@ -42,6 +42,8 @@ Added $(ProjectDir)..\..\SDL-1.2.15\VisualC\$(Configuration); and $(ProjectDir).
 and $(ProjectDir)..\..\SDL-1.2.15\VisualC\$(Platform)\$(Configuration); and $(ProjectDir)..\..\SDL-1.2.15\VisualC\SDLmain\$(Platform)\$(Configuration)
    for the x64 platform.
    
+In the Linker OutFile set it to be .\$(Platform)\$(Configuration)/SDL.dll for x64 Platfom
+   
 Batch build everything.
    
 ## SDL_gfx (Primatives)
