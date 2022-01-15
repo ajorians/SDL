@@ -1,6 +1,8 @@
 *.suo
 Browse.VC.db
 Browse.VC.opendb
+Browse.VC.db-shm
+Browse.VC.db-wal
 Solution.VC.db
 Solution.VC.db-shm
 Solution.VC.db-wal
@@ -19,6 +21,9 @@ UpgradeLog.htm
 *.exe
 *.iobj
 *.ipdb
+*.recipe
+
+project-colors.json
 
 CL.command.1.tlog
 CL.read.1.tlog
